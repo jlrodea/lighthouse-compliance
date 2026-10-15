@@ -19,6 +19,34 @@ if (toggle && nav) {
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
 
+// Language: remember the visitor's choice, and on English pages suggest
+// the Spanish version to visitors whose browser prefers Spanish (no redirect).
+const langStore = {
+  get() { try { return localStorage.getItem('lang'); } catch (e) { return null; } },
+  set(value) { try { localStorage.setItem('lang', value); } catch (e) { /* storage unavailable */ } },
+};
+document.querySelectorAll('[data-lang]').forEach((link) => {
+  link.addEventListener('click', () => langStore.set(link.dataset.lang));
+});
+const spanishLink = document.querySelector('.lang-switch a[data-lang="es"]');
+const browserLang = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+if (document.documentElement.lang === 'en' && spanishLink && !langStore.get() && browserLang.startsWith('es')) {
+  const bar = document.createElement('div');
+  bar.className = 'lang-bar';
+  bar.setAttribute('role', 'region');
+  bar.setAttribute('aria-label', 'Idioma');
+  bar.setAttribute('lang', 'es');
+  bar.innerHTML = '<span>¿Prefiere ver el sitio en español?</span> <a data-lang="es">Ver en español →</a>' +
+    '<button type="button" aria-label="Cerrar">×</button>';
+  bar.querySelector('a').href = spanishLink.href;
+  bar.querySelector('a').addEventListener('click', () => langStore.set('es'));
+  bar.querySelector('button').addEventListener('click', () => {
+    langStore.set('en');
+    bar.remove();
+  });
+  document.body.prepend(bar);
+}
+
 // Scroll reveal: fade blocks in as they enter the viewport.
 // Only elements that start below the fold are hidden, so nothing visible ever flashes.
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

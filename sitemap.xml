@@ -1,12 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.lighthousecompliance360.com/</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/people-effectiveness.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/compliance-governance.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/due-diligence.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/internal-investigations.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/how-we-work.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/about.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/resources.html</loc></url>
-  <url><loc>https://www.lighthousecompliance360.com/contact.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.lighthousecompliance360.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/people-effectiveness.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/people-effectiveness.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/personas-y-entorno-laboral.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/personas-y-entorno-laboral.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/people-effectiveness.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/personas-y-entorno-laboral.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/compliance-governance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/compliance-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/programas-de-compliance.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/programas-de-compliance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/compliance-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/programas-de-compliance.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/due-diligence.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/due-diligence.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/evaluacion-de-proveedores-y-socios.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/evaluacion-de-proveedores-y-socios.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/due-diligence.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/evaluacion-de-proveedores-y-socios.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/internal-investigations.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/internal-investigations.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/revision-de-incidentes.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/revision-de-incidentes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/internal-investigations.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/revision-de-incidentes.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/how-we-work.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/how-we-work.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/como-trabajamos.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/como-trabajamos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/how-we-work.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/como-trabajamos.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/nosotros.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/nosotros.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/nosotros.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/resources.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/recursos.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/recursos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/recursos.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/contacto.html"/>
+  </url>
+  <url>
+    <loc>https://www.lighthousecompliance360.com/es/contacto.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lighthousecompliance360.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lighthousecompliance360.com/es/contacto.html"/>
+  </url>
 </urlset>
