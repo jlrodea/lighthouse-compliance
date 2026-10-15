@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lighthouse Compliance">
+  <!-- light beams -->
+  <path d="M32 14 L4 6 L4 22 Z" fill="#F4A51C" opacity="0.55"/>
+  <path d="M32 14 L60 6 L60 22 Z" fill="#F4A51C" opacity="0.55"/>
+  <!-- lamp -->
+  <rect x="26" y="9" width="12" height="10" rx="2" fill="#F4A51C"/>
+  <path d="M24 9 L32 3 L40 9 Z" fill="#FFFFFF"/>
+  <!-- tower -->
+  <path d="M25 19 H39 L43 58 H21 Z" fill="#FFFFFF"/>
+  <path d="M24.2 28 H39.8 L40.6 36 H23.4 Z" fill="#E4572E"/>
+  <path d="M22.6 44 H41.4 L42.2 52 H21.8 Z" fill="#E4572E"/>
+  <rect x="16" y="57" width="32" height="4" rx="1" fill="#FFFFFF"/>
+</svg>
